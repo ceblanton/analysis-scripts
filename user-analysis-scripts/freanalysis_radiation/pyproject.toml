@@ -9,7 +9,7 @@ name = "freanalysis_radiation"
 version = "0.1"
 dependencies = [
     "intake",
-    "intake-esm",
+    "intake-esm@git+https://github.com/jtmims/intake-esm#egg=single-thread",
 ]
 requires-python = ">= 3.6"
 authors = [
